@@ -1,0 +1,2 @@
+<?php
+echo "SE VOCÊ ESTÁ VENDO ISSO, FUNCIONOU"
