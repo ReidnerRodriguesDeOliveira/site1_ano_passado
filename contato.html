@@ -1,0 +1,176 @@
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="all" href="css/estili.css" />
+<title>contato</title>
+<link rel ="shortcut icon" href = "imagens/laranjacinza.png" type ="imagens/x-icon"/>  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="script/jquery-1.4.2.min.js"></script>
+
+
+<style>
+
+#conteudof{margin-top:0px;margin-left: 0px; position : absolute;}
+#form{margin-top:0px;margin-left: 0px; position : absolute; width : 400px;}
+	
+	
+	label, input, select {font-size: 12px; margin-bottom: 10px;}
+
+	input, select, textarea {background: #FFFFFF;}
+	
+	label{color: #000000;}
+	
+	textarea{resize:none; outline: none;}
+
+	.campo {font-size: 14px; font-family: 'Black Han Sans'; font-weight:bold; color: #000000; width: 400px;}
+
+	
+
+	fieldset{padding: 10px; border-color: #f29b15;background: #f29b15;}
+
+	.botao{ border: 3px solid #44559A; font-size: 12px; font-family: arial; color: #000000; background: #f3f3f3 ; width: 100px; margin-top: 10px;}
+
+	
+#conteudo{margin-top:0px;margin-left: 450px; position : absolute;}
+#bloco1{margin-top:0px;margin-left: 0px; position : absolute; width : 600px;}
+#bloco2{margin-top:27px;margin-left: 1120px; position : absolute; width : 140px; background-color:#E99008}
+#maemapa{margin-top:0px;margin-left: 0px; position : absolute; width : 600px;}
+.texto1{color: #000000; font-size: 17px; font-family: Black+Han+Sans; font-weight: bold;}
+#efect{margin-top:6px;margin-left: 445px; position : absolute;}
+
+p{text-align : justify; line-height: 1.5;}	
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}	
+
+
+</style>
+
+</head>
+<body>
+<div id="logo">
+	<img src = "imagens/logo.png">
+</div>
+<div id="menu">
+	  	<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="galeria.html">lista completa </a></li>
+			<li><a href="quemsou.html">quem sou</a></li>
+			<li><a href="contato.html">Contato</a></li>
+	  	</ul>
+</div>
+
+<div id = conteudof>
+<div id = form>
+
+<fieldset>
+  <form name = form1>
+      <label>Nome:*</label>
+      <input type='text'  name='nome' class='campo' required >
+	  
+	  <label>Anime favorito:*</label>
+      <input type='text'  name='nome' class='campo' >
+      
+	  <label>Sexo:*</label>
+	  <label>Masculino:</label>
+	  <input type="radio" name="sexo"  value="masculino">
+      <label>Feminino:</label>
+      <input type="radio" name="sexo"  value="feminino" required><br>
+	  
+	  <label>Estados:</label><br>
+	  <select name="estados-brasil">
+		<option value="AC">Acre</option>
+		<option value="AL">Alagoas</option>
+		<option value="AP">Amapá</option>
+		<option value="AM">Amazonas</option>
+		<option value="BA">Bahia</option>
+		<option value="CE">Ceará</option>
+		<option value="DF">Distrito Federal</option>
+		<option value="ES">Espírito Santo</option>
+		<option value="GO">Goiás</option>
+		<option value="MA">Maranhao</option>
+		<option value="MT">Mato Grosso</option>
+		<option value="MS">Mato Grosso do Sul</option>
+		<option value="MG" selected>Minas Gerais</option>
+		<option value="PA">Pará</option>
+		<option value="PB">Paraíba</option>
+		<option value="PR">Paraná</option>
+		<option value="PE">Pernambuco</option>
+		<option value="PI">Piauí</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RN">Rio Grande do Norte</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="RO">Rondônia</option>
+		<option value="RR">Roraima</option>
+		<option value="SC">Santa Catarina</option>
+		<option value="SP">Sao Paulo</option>
+		<option value="SE">Sergipe</option>
+		<option value="TO">Tocantins</option>
+	  </select>
+	  
+      <label>Comentários:</label>
+      <textarea cols='50' rows='6' name='Comentarios' class='campo' placeholder="Digite aqui seu comentario"></textarea>
+      <br>
+      <input type='submit' name='BTEnvia'  value='Enviar email' class = botao>
+      <input type='reset' name='BTApaga'  value='Apagar' class = botao>
+   </form>
+   </fieldset>
+   
+</div>
+<div id = "efect">
+<img src ="imagens/efeitomapa.jpg">
+</div>
+</div>
+<div id maemapa>
+<div id = conteudo>
+<div id = bloco1>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.9760193574853!2d139.77227026525938!3d35.702207730189436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C+Tait%C5%8D%2C+Tokyo+110-0006%2C+Japan!5e0!3m2!1sen!2sbr!4v1523878375263" width="600" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+</div>
+
+<div id = bloco2>
+<span class = "texto1">
+distrito: akihabara
+bairro: chiyoda<br>
+cidade:tokyo<br>
+pais:japão
+</span>
+</div>
+</div>
+<div id = "rodapec">
+	<div id = "copy"><font class = copyright>© Copyright shonen jump 2000 - 2018. todos os direitos reservados.</font></div>
+</div>	
+
+</body>
+</html>
